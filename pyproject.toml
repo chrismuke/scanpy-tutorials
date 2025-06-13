@@ -11,6 +11,19 @@ dependencies = [
     "sphinx",
     "myst-nb",
     "scanpydoc[theme]>=0.13.4",
+    "jupyterlab-vim>=4.1.4",
+    "jupyterlab>=4.4.2",
+    "ipython>=8.18.1",
+    "notebook>=7.4.2",
+    "jupyter-console>=6.6.3",
+    "scanpy[dask,leiden]>=1.10.3",
+    "anndata>=0.10.9",
+    "pooch>=1.8.2",
+    "scikit-image>=0.24.0",
+    "igraph>=0.11.8",
+    "dask[diagnostics,distributed]>=2024.7.1",
+    "sklearn-ann>=0.1.2",
+    "annoy>=1.17.3",
 ]
 
 [tool.hatch.version]
